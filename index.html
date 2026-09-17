@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Arul 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Cute Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Pacifico&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- FLOATING BACKGROUND -->
+    <div class="floating-bg">
+        <span>⭐</span>
+        <span>🎈</span>
+        <span>💖</span>
+        <span>✨</span>
+        <span>🎂</span>
+        <span>🌈</span>
+        <span>🪩</span>
+        <span>🎁</span>
+        <span>💫</span>
+    </div>
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <p class="tiny-text">🚨 VERY IMPORTANT WEBSITE 🚨</p>
+
+        <h1>
+            HAPPY
+            <span>23RD</span>
+            BIRTHDAY
+        </h1>
+
+        <h2>ARUL 🥳</h2>
+
+        <p class="subtitle">
+            Congratulations on surviving another year of being
+            extremely annoying.
+        </p>
+
+        <button class="main-btn" onclick="startBirthday()">
+            ENTER YOUR BIRTHDAY UNIVERSE ✨
+        </button>
+
+        <div class="arrow">↓</div>
+
+    </section>
+
+
+
+    <!-- INTRO -->
+
+    <section class="card-section">
+
+        <div class="big-card">
+
+            <span class="sticker sticker1">certified yapper</span>
+            <span class="sticker sticker2">⭐ 23 ⭐</span>
+
+            <h2>Dear Arul...</h2>
+
+            <p>
+                Somehow the universe decided that the world needed
+                YOU in it.
+            </p>
+
+            <p>
+                And somehow it also decided that I should meet you.
+            </p>
+
+            <p>
+                Questionable decision by the universe.
+            </p>
+
+            <p class="highlight">
+                But I'm very glad it did. 💛
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CLICK ME MESSAGE -->
+
+    <section class="message-section">
+
+        <h2>💌 Incoming message from Ashi...</h2>
+
+        <button class="cute-btn" onclick="showMessage()">
+            OPEN MESSAGE
+        </button>
+
+        <div id="secretMessage" class="hidden message-box">
+
+            <p>
+                HI BIRTHDAY BOYYYY 🎂
+            </p>
+
+            <p>
+                You're officially 23 now which means you're older,
+                supposedly wiser, and unfortunately still stuck with me.
+            </p>
+
+            <p>
+                I hope this year gives you ridiculous amounts of happiness,
+                amazing food, good gym days, exciting adventures,
+                peaceful nights and everything your little heart wants.
+            </p>
+
+            <p>
+                And obviously plenty of opportunities to annoy me.
+            </p>
+
+            <p class="signature">
+                — Ashi 💌
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- REASONS SECTION -->
+
+    <section class="reasons-section">
+
+        <h2>Reasons you're kinda cool</h2>
+
+        <p class="section-subtitle">
+            Don't let this increase your ego.
+        </p>
+
+        <div class="reason-grid">
+
+            <div class="reason-card">
+                <div class="emoji">😂</div>
+                <h3>Your stupid humour</h3>
+                <p>
+                    Unfortunately you make me laugh more than I'd like
+                    to admit.
+                </p>
+            </div>
+
+
+            <div class="reason-card">
+                <div class="emoji">🗣️</div>
+                <h3>Your yapping</h3>
+                <p>
+                    You can somehow turn one tiny story into an entire
+                    podcast episode.
+                </p>
+            </div>
+
+
+            <div class="reason-card">
+                <div class="emoji">🤨</div>
+                <h3>Your ragebaiting</h3>
+                <p>
+                    A true professional at saying exactly the thing
+                    required to irritate me.
+                </p>
+            </div>
+
+
+            <div class="reason-card">
+                <div class="emoji">💛</div>
+                <h3>Your heart</h3>
+                <p>
+                    Hidden beneath approximately seventeen layers of
+                    nonsense, there is actually a very good human.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- MEMORY LANE -->
+
+    <section class="memory-section">
+
+        <h2>📸 Tiny Memory Lane</h2>
+
+        <p>
+            Proof that we've survived each other this long.
+        </p>
+
+
+        <div class="polaroids">
+
+            <div class="polaroid rotate-left">
+
+                <img src="images/photo1.jpg" alt="memory">
+
+                <p>
+                    insert chaotic memory #1
+                </p>
+
+            </div>
+
+
+            <div class="polaroid rotate-right">
+
+                <img src="images/photo2.jpg" alt="memory">
+
+                <p>
+                    two idiots spotted
+                </p>
+
+            </div>
+
+
+            <div class="polaroid rotate-left">
+
+                <img src="images/photo3.jpg" alt="memory">
+
+                <p>
+                    surprisingly wholesome
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- MYSTERY GIFTS -->
+
+    <section class="gift-section">
+
+        <h2>🎁 Pick a birthday present</h2>
+
+        <p>
+            Warning: none of these contain actual money.
+        </p>
+
+
+        <div class="gifts">
+
+            <button onclick="openGift(1)">🎁</button>
+
+            <button onclick="openGift(2)">🎁</button>
+
+            <button onclick="openGift(3)">🎁</button>
+
+            <button onclick="openGift(4)">🎁</button>
+
+        </div>
+
+
+        <div id="giftMessage" class="gift-message">
+
+            Choose wisely 👀
+
+        </div>
+
+    </section>
+
+
+
+    <!-- DO NOT PRESS -->
+
+    <section class="danger-section">
+
+        <h2>🚨 IMPORTANT 🚨</h2>
+
+        <p>
+            Whatever you do...
+        </p>
+
+        <button
+            id="dangerButton"
+            class="danger-btn"
+            onclick="dangerClick()"
+        >
+            DO NOT PRESS THIS BUTTON
+        </button>
+
+
+        <p id="dangerText"></p>
+
+    </section>
+
+
+
+    <!-- BIRTHDAY WISH MACHINE -->
+
+    <section class="wish-section">
+
+        <h2>✨ Birthday Wish Machine ✨</h2>
+
+        <p>
+            Press the magical button for your scientifically
+            generated birthday prediction.
+        </p>
+
+        <button class="magic-btn" onclick="generateWish()">
+            🔮 PREDICT MY YEAR
+        </button>
+
+        <div id="wishResult"></div>
+
+    </section>
+
+
+
+    <!-- FINAL LETTER -->
+
+    <section class="final-section">
+
+        <div class="letter">
+
+            <h2>Okay... serious moment.</h2>
+
+            <p>
+                I joke about you being annoying approximately
+                every five minutes, but I'm genuinely really grateful
+                that you exist.
+            </p>
+
+            <p>
+                Thank you for all the stupid conversations,
+                random stories, fights, laughter, ragebaiting,
+                yapping and memories.
+            </p>
+
+            <p>
+                I hope 23 is ridiculously kind to you.
+            </p>
+
+            <p>
+                I hope you get closer to the person you want to become,
+                experience things you've always wanted to experience,
+                and collect memories that make you smile years from now.
+            </p>
+
+            <p>
+                And on the days when life gets too loud,
+                I hope you remember that somewhere in your corner
+                exists one very annoying Ashi who will always be
+                ready to listen to your yapping.
+            </p>
+
+            <h3>
+                Happy Birthday, bhondu. 💛
+            </h3>
+
+            <p class="signature">
+                love,<br>
+                Ashi
+            </p>
+
+        </div>
+
+
+        <button class="confetti-btn" onclick="megaConfetti()">
+            ONE LAST SURPRISE 🎉
+        </button>
+
+    </section>
+
+
+
+    <footer>
+
+        made with
+
+        <span>♥</span>
+
+        + unnecessary amounts of effort by Ashi
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
